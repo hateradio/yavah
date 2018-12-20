@@ -2,7 +2,7 @@
 // @name           What.CD: YAVAH
 // @namespace      hateradio)))
 // @author         hateradio
-// @version        5
+// @version        5.1
 // @description    Yet Another Various Artists Helper
 // @icon           data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjY0NDMyN0UzOUEwQzExRTA4REU5OUY2M0Q5RDZGNTQ1IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjY0NDMyN0U0OUEwQzExRTA4REU5OUY2M0Q5RDZGNTQ1Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NjQ0MzI3RTE5QTBDMTFFMDhERTk5RjYzRDlENkY1NDUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NjQ0MzI3RTI5QTBDMTFFMDhERTk5RjYzRDlENkY1NDUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6q1rvzAAAEMElEQVR42uyaP0gcQRTG12CpYBkVUkWto22CYqtiq7FWrNVervdPK5r2oq2orSiptQkE1LRqkSooBNIk+xvyLe/m9la9XDzIvoFh9mZnZme+973vvRE7enp6kjKXF3/aD2n9VbJa4eAdKQPepu2nkhJgAAa8KrEHvHyRlLw4AA6AA+AAOAAOgAPgADgADoAD4AA4AA6AA+AAOAAOgAPgADgADoAD4AA4AA6AA+AAOAAOgAPQmjI7O5scHx8nq6urWd/o6Gjoo/JeZWFhIfTRtqIsLS3VfaNtDOju7s6ep6amcvsnJiZCe3Bw0JJvjoyMhPbi4iL3fedzHPzm5ia0XV1doR0cHEyGh4eTu7u7cHj1Awq/T09Pk9vb21wAsSjsoVxeXiaVSqVmLCzT+729vWztvPXapgGiIwe1DNDGT05Ocg+/tbWVjRGQy8vL2e+1tbWa9zMzM2EeQLcVAH2czVCxPn2Hh4ehv7e3N2MF/QImBo1x5+fnyfj4eLK4uBj6BwYGMvZo/tzcXBjDWMrV1VXDvXU+p+WhIwcBBOhpgRkbGwvPAiUusuz6+npGfw4Zv2e+1mUMoNC2FQBLP0SO37u7u+E39AQYDsBzHgAAhPUp9/f3ud/Qe+mN7WtE/7ZEAYlc3gHpB4SiIsorvMXhUqoPoGLF9fV1exnAoaT4tLK+rCMRtOK3v78f2unp6TAHGqMTCJ2dq7V4D4iTk5Oh2lKkAc8eBWIri9IcQKKF3wKKpS7hTu8pPK+srGRrbWxsZO+tK7FGEav4X+H3aVstaSb87tEMIAbjc/heXppbrVZr4rnSXJv+QmH1S6Di1Jh1rDbgCvTLJeJCf/yOeUVzmnIBCRcb1UE50Pz8fBaeRDUrTIxRgeYaY/vtHMKjzeP1LRsJVOQqsY9LKIt8/8kAIDYSLImM2LC5uZn5n01YFIpsri+/7uvrq0tyAEh3AAACbMZrTgxaf39/Xegr6v9rEZSwAACHZ0P0adMWnO3t7WzjsohYYGO01tOcmBGsf3Z2VgdaUZz/JwwQC6Cwwg1WRn1jS7JpDqqNDQ0N1TFA8VpzcDGxBssrgxPz7JzYvXBDaQtVgBbF/6bD4NHRUc1NzAoPWR4A7ezshD5Zzlpb11KyP/q5sDDHWl+XJcV4zYk1wDIrrzyGAU9OhCRiWMvGVytYsfpay2lTjOUmF98LOLwsayOIAKAyVtqiy48dQyR5KP43zQBtzvqdBKvoEmQB1Fzd3mxmGGdxjXL+Rv6ft7+WMkAfsP5lQ5ilsuK4rsDycaWtEjlZykYDXXdtHsK30RPWka7ENz0JpdyvpQxQLGbDsWDFOX5sbSuE2rRETmujB9b3bdEcGaARAx66NXoq3Gwq7H8WdwD+XwB+lPj8PwHgOK3fSnj4r2n9TB7wPa1v0ko0eF2Sw39J60fY/1uAAQDAo7S7+Gt3nAAAAABJRU5ErkJggg==
 // @include        /https://redacted\.ch/(torrents\.php(\?|\?page=\d+&)id=\d+(&torrentid=\d+)?(#comments)?|upload\.php(\?requestid=\d+)?)/
@@ -36,7 +36,7 @@
                 const context = this, args = arguments
                 const run = () => {
                     timeout = null
-                    func.apply(context, [...args])
+                    func.call(context, ...args)
                 }
     
                 clearTimeout(timeout)
