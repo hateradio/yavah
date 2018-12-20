@@ -12,7 +12,6 @@
 // #since          18 Jun 2010
 // ==/UserScript==
 
-/* jshint esversion: 6, asi: true */
 (() => {
     'use strict'
 

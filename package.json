@@ -1,0 +1,29 @@
+{
+  "name": "yavah",
+  "version": "4.2.0",
+  "description": "Yet Another Various Artists Helper",
+  "main": "Gruntfile.js",
+  "directories": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "grunt": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hateradio/yavah.git"
+  },
+  "keywords": [
+    "ytma",
+    "neogaf"
+  ],
+  "author": "hateradio",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/hateradio/yavah/issues"
+  },
+  "homepage": "https://github.com/hateradio/yavah#readme"
+}
