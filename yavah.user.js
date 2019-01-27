@@ -8,14 +8,14 @@
 // @include        /https://redacted\.ch/(torrents\.php(\?|\?page=\d+&)id=\d+(&torrentid=\d+)?(#comments)?|upload\.php(\?requestid=\d+)?)/
 // @include        /https://orpheus\.network/(torrents\.php(\?|\?page=\d+&)id=\d+(&torrentid=\d+)?(#comments)?|upload\.php(\?requestid=\d+)?)/
 // @include        /https://notwhat\.cd/(torrents\.php(\?|\?page=\d+&)id=\d+(&torrentid=\d+)?(#comments)?|upload\.php(\?requestid=\d+)?)/
-// #updated        19 Jan 2019
+// #updated        24 Jan 2019
 // #since          18 Jun 2010
 // ==/UserScript==
 
 (() => {
 
     if (!Element.prototype.matches)
-        Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
+        Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector
 
     if (!Element.prototype.closest) {
         Element.prototype.closest = function (s) {
@@ -48,10 +48,9 @@
         debounce: (func, wait) => {
             let timeout
             return function (...args) {
-                const context = this
                 const run = () => {
                     timeout = null
-                    func.apply(context, args)
+                    func.apply(this, args)
                 }
 
                 clearTimeout(timeout)
