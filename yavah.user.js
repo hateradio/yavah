@@ -70,6 +70,7 @@
         constructor() {
             this.sibling = document.querySelector('.box_addartists, #artist_tr')
             this.setup()
+            YavaMenu.check = document.getElementById('yavah_semi')
         }
 
         get types() {
@@ -100,7 +101,6 @@
                 </div>`
 
             this.sibling.parentElement.insertBefore(box, this.sibling)
-            YavaMenu.check = document.getElementById('yavah_semi')
         }
 
         toggle(e) {
